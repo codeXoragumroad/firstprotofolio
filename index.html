@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>codeXora</title>
+  <meta name="description" content="A clean, modern, and professional portfolio template for developers and designers." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar container">
+      <a class="brand" href="#top">codeXora</a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navMenu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container reveal" id="hero">
+      <p class="eyebrow">Developer / Designer Portfolio</p>
+      <h1>Building user-friendly digital experiences that look sharp and work smoothly.</h1>
+      <p class="lead">I’m Alex, a front-end developer and UI designer focused on crafting clean websites and product interfaces for startups, students, and small businesses.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">View Projects</a>
+        <a class="btn btn-secondary" href="#contact">Contact Me</a>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about-grid reveal">
+        <div class="about-image" aria-hidden="true">
+          <div class="profile-placeholder">AM</div>
+        </div>
+        <div class="about-content">
+          <h2>About Me</h2>
+          <p>I blend visual design and front-end development to create polished, functional web experiences. My process combines wireframing, style systems, and clean code to deliver results quickly.</p>
+          <p>Over the past few years, I’ve worked on landing pages, dashboards, and branding-focused websites. I care about accessibility, responsive layouts, and intuitive user flows.</p>
+          <p class="career-summary"><strong>Career Summary:</strong> 2+ years of project-based experience in web design, prototyping, and modern front-end development with a focus on practical, real-world outcomes.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section container" id="skills">
+      <div class="section-head reveal">
+        <h2>Skills</h2>
+        <p>Core technical strengths used in day-to-day project work.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <h3>HTML5</h3>
+          <p>Semantic structure, accessibility basics, and SEO-friendly markup.</p>
+          <div class="progress"><span style="width: 92%"></span></div>
+        </article>
+
+        <article class="skill-card reveal">
+          <h3>CSS3</h3>
+          <p>Responsive layouts, animation, design systems, and component styling.</p>
+          <div class="progress"><span style="width: 88%"></span></div>
+        </article>
+
+        <article class="skill-card reveal">
+          <h3>JavaScript</h3>
+          <p>Interactive UI behavior, DOM manipulation, and clean modular logic.</p>
+          <div class="progress"><span style="width: 82%"></span></div>
+        </article>
+
+        <article class="skill-card reveal">
+          <h3>UI Design</h3>
+          <p>Wireframes, typography systems, visual hierarchy, and usability focus.</p>
+          <div class="progress"><span style="width: 86%"></span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Projects</h2>
+          <p>Demo project cards ready for customization and selling as a template.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-image" role="img" aria-label="Dashboard project placeholder"></div>
+            <div class="project-body">
+              <h3>Analytics Dashboard UI</h3>
+              <p>A responsive dashboard concept featuring clean data cards and visual reporting layouts.</p>
+              <a href="#" class="project-link">Live Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image" role="img" aria-label="Portfolio project placeholder"></div>
+            <div class="project-body">
+              <h3>Personal Brand Website</h3>
+              <p>A one-page brand-forward site focused on clear storytelling and modern typography.</p>
+              <a href="#" class="project-link">Live Demo</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image" role="img" aria-label="Ecommerce project placeholder"></div>
+            <div class="project-body">
+              <h3>Product Landing Page</h3>
+              <p>A conversion-oriented layout with trust sections, pricing highlight, and strong CTA flow.</p>
+              <a href="#" class="project-link">Live Demo</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section container" id="contact">
+      <div class="section-head reveal">
+        <h2>Contact</h2>
+        <p>Let’s collaborate on your next digital product.</p>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your full name" required />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+
+        <button class="btn btn-primary" type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div class="socials">
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="#" aria-label="GitHub">gh</a>
+        <a href="#" aria-label="Behance">be</a>
+      </div>
+      <p>&copy; <span id="year"></span> codeXora. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
